@@ -10,6 +10,19 @@
                 <h1>Mi Pokedex</h1>
             </div>
             <p>Has elegido el pokemon: <strong>{{ pokemon | capfirst }}</strong></p>
+            <p>Detalles del pokemon:</p>
+         <ul class="list-group">
+                <li class="list-group-item">
+                    <strong>Tipo:</strong> {{ pokemon.type }} <br>
+                </li>
+                <li class="list-group-item">
+                    <strong>Altura:</strong> {{ pokemon.height }} m <br>
+                </li>   
+                <li class="list-group-item">
+                    <strong>Peso:</strong> {{ pokemon.weight }} kg <br>
+                </li>
+
+            </ul>
         </div>
     </body>
 </html>
