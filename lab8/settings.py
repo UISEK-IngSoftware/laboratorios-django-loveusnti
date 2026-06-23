@@ -137,4 +137,4 @@ LOGIN_REDIRECT_URL = 'pokedex:index'
 LOGOUT_REDIRECT_URL = 'pokedex:index'
 LOGIN_URL = 'pokedex:login'
 
-
+CORS_ALLOW_ALL_ORIGINS = True
